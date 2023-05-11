@@ -74,6 +74,32 @@ input, select, textarea {
 
 /* Basic */
 
+.blue-bg{
+  position: fixed;
+  background: url(https://live.staticflickr.com/1656/26031883676_182191d803_b.jpg);
+  background-size: cover;
+  background-color: #58aff6;
+  top: 0;
+  height: 400px;
+  width: 100vw;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+.white-bg{
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  min-height: 500px;
+  margin: 140px 0px;
+  width: 100vw;
+  height: 200vh;
+  transform: skewY(6deg);
+  z-index: -1;
+}
+
+
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -99,7 +125,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #efeae2;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
