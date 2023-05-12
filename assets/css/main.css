@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -41,6 +36,7 @@ blockquote, q {
 	quotes: none;
 }
 
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -72,6 +68,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 .blue-bg{
@@ -97,8 +94,6 @@ input, select, textarea {
   transform: skewY(6deg);
   z-index: -1;
 }
-
-
 
 	@-ms-viewport {
 		width: device-width;
@@ -2315,6 +2310,7 @@ input, select, textarea {
 
 /* Box */
 
+
 	.box {
 		border-radius: 4px;
 		border: solid 1px #c9c9c9;
@@ -2333,7 +2329,10 @@ input, select, textarea {
 			border-radius: 0;
 			padding: 0;
 		}
-
+		.float-right {
+			float: right;
+			width: 50%; /* Adjust the width as per your design */
+		}
 /* Image */
 
 	.image {
@@ -2348,19 +2347,22 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
-			max-width: 40%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.left {
+		
+		  
+		  .image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
+			margin-bottom: 1em;
+			margin-right: 1em;
+			max-width: 100%;
+		  }
+
+		  .image.abtme {
+			width: 42px;
+			height: auto;
+		  }
+
+	
 
 		.image.right {
 			float: right;
